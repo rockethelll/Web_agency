@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+a {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  margin: 1em 2em;
+  &:hover {
+    color: #d087fa;
+  }
+}
+

@@ -1,0 +1,26 @@
+@import '../../assets/variables';
+
+.btn-toggle {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: transform 0.4s ease;
+  will-change: transform;
+  position: fixed;
+  top: 15;
+  right: 20px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.btn-dark {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
